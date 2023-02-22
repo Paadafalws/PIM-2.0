@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formulario.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="logo">Coa</h1>
+            <h1 class="formulario">Enviar Guias</h1>
+        </header>
+        <section>
+            <form>
+                <!-- floatingInput -->
+                    <!-- floatingInput__control -->
+                    <!-- floatingInput__label -->
+                <div class="floatingInput">          
+                    <input type="text" id="codigoempresa" class="floatingInput__control" placeholder="codigoempresa">
+                    <label for="codigoempresa" class="floatingInput__label">Codigo Empresa</label>         
+                </div>
+                <div class="floatingInput">          
+                    <input type="text" id="razaosocial" class="floatingInput__control" placeholder="razaosocial">
+                    <label for="razaosocial" class="floatingInput__label">Razão Social</label>         
+                </div>
+                <div class="floatingInput">
+                    <input type="text" id="cnpj" class="floatingInput__control" placeholder="cnpj">
+                    <label for="cnpj" class="floatingInput__label">CNPJ</label> 
+                </div>
+                <!--arquivo-->>
+                <div class="floatingInput" >                                             
+                    <input type="file" id="arquivo" class="arquivo" multiple="multiple" >                            
+                    <div class="floatingInput" rows="20">
+                        <textarea placeholder="Observação" class="floatingInput__control" id="floatingtext" ></textarea>                                
+                        <label for="floatingText" class="floatingInput__label">Observação</label>
+                    </div>                         
+                </div> 
+                <div>                                        
+                    <a href=""><button type="submit">Enviar</button></a>         
+                </div>                             
+            </form>                                      
+        </section>         
+    </main> 
+    
+</body>
+</html>

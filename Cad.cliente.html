@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formulario.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="logo">Coa</h1>
+            <h1 class="formulario">Cadastro Cliente</h1>
+        </header>
+        <section>
+            <form>
+                <!--Empresa-->
+                <h2 class="formulario"><br>Empresa<hr></h2>
+                <!-- floatingInput -->
+                    <!-- floatingInput__control -->
+                    <!-- floatingInput__label -->
+                <div class="floatingInput">          
+                    <input type="text" id="razaosocial" class="floatingInput__control" placeholder="Razão social">
+                    <label for="razaosocial" class="floatingInput__label">Razão social</label>         
+                </div>
+                <div class="floatingInput">
+                    <input type="text" id="cnpj" class="floatingInput__control" placeholder="999.999.999/9999-99">
+                    <label for="cnpj" class="floatingInput__label">999.999.999/9999-99</label> 
+                </div>
+                <div class="floatingInput">
+                    <input type="text" id="regime" class="floatingInput__control" placeholder="MEI/LUCRO REAL/LUCRO PRESUMIDO/">
+                    <label for="regime" class="floatingInput__label">MEI/LUCRO REAL/LUCRO PRESUMIDO/</label> 
+                </div>
+                <!--Contato-->
+                <h2 class="formulario">Contato<hr></h2> 
+                <div class="floatingInput">          
+                    <input type="text" id="email" class="floatingInput__control" placeholder="email">
+                    <label for="email" class="floatingInput__label">E-Mail de contato</label>         
+                </div>
+                <div class="floatingInput">
+                    <input id="text" type="nome" class="floatingInput__control" placeholder="nome">
+                    <label for="nome" class="floatingInput__label">Nome</label> 
+                </div>
+                <div class="floatingInput">          
+                    <input type="text" id="telefone" class="floatingInput__control" placeholder="telefone">
+                    <label for="telefone" class="floatingInput__label">Telefone</label>         
+                </div>
+                <div class="floatingInput">
+                    <input id="text" type="contador" class="floatingInput__control" placeholder="contador">
+                    <label for="contador" class="floatingInput__label">Contador</label> 
+                </div>
+                <div class="floatingInput">
+                    <input id="text" type="Colaborador" class="floatingInput__control" placeholder="Colaborador">
+                    <label for="Colaborador" class="floatingInput__label">Colaborador</label> 
+                </div>
+                <!--Login-->                
+                <h2 class="formulario">Login<hr></h2>  
+                <div class="floatingInput">          
+                    <input type="text" id="nome" class="floatingInput__control" placeholder="nome">
+                    <label for="nome" class="floatingInput__label">Nome Usuario</label>         
+                </div>
+                <div class="floatingInput">          
+                    <input type="email" id="email" class="floatingInput__control" placeholder="Endereço de email">
+                    <label for="email" class="floatingInput__label">Email de Login</label>         
+                </div>
+                <div class="floatingInput">
+                    <input id="password" type="password" class="floatingInput__control" placeholder="senha">
+                    <label for="password" class="floatingInput__label">Senha</label> 
+                </div>
+                <div>                                     
+                    <a href=""><button type="submit">Salvar</button></a>         
+                </div>                                                
+            </form>                                      
+        </section>         
+    </main> 
+</body>
+</html>

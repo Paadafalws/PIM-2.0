@@ -1,0 +1,93 @@
+body{
+    font-family:arial, sans-serif;
+    background-color:black;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin:150px;    
+}
+main{    
+    border-radius: 20px;       
+    background-color:#37363e;    
+    padding: 40px;      
+    width: 400px;     
+}
+.header{
+    display: flex;
+    justify-content: space-between;          
+}
+.logo{            
+    color:rgb(30, 248, 5); 
+    text-transform: uppercase;  
+}
+.formulario{               
+    color:white;
+    text-align: left;
+    text-align: right;         
+}
+section{
+    text-align: center;         
+}
+.floatingInput {
+    position: relative;
+}
+.floatingInput__control {    
+    background-color:black;
+    color:#f7f6f8;    
+    border-radius:20px;
+    margin-top:15px;
+    height:50px;
+    width:100%;  
+    text-transform: uppercase;    
+}
+.floatingInput__control::placeholder{
+    opacity: 0;
+}
+.floatingInput__control:not(:placeholder-shown) + .floatingInput__label,
+.floatingInput__control:focus + .floatingInput__label{
+    top: 20px;
+    font-size: 10px;
+}
+.floatingInput__label {
+    color: gray;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transition: all .2s;
+}
+.arquivo{    
+    margin-top:10%;
+    color:gray;    
+    display: flex;
+    padding-right: 50px;
+}
+.teste{
+   align-items: center;
+   margin-top:20px;
+   display: flex;
+   justify-content:space-between;
+}
+.checkbox{
+    width:15px;    
+}
+textarea{
+    resize:none;
+    width: 100%;
+    border-bottom: 50px solid black;
+    padding-top: 20px;
+}
+button {    
+    border-radius: 20px;
+    height:50px;
+    width:100%;
+    background-color: rgb(30, 248, 5);
+    text-align: center;
+    text-transform: uppercase;
+    color:white;  
+    font-weight: bold;
+    margin-top: 30px;  
+}
+
+
+
