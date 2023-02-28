@@ -34,3 +34,14 @@ img{
     height: 130px;
     margin-left: 20%;
 }
+.lateralnav{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    padding: 6px;
+    display: block;
+}
+.lateralnav:hover{
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+}
