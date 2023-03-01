@@ -1,18 +1,47 @@
+:root
+{
+    --pretofundo: #000000;
+    --telas: #191c24;
+    --icones:#028a0f;
+    --texto:#517293;
+}
 body{
     font-family:arial, sans-serif;
-    background-color:black;          
+    background-color:var(--pretofundo);          
 }
 header{
-    background-color: gray;
+    background-color:var(--telas);
     width: 100%;
     height: 60px;
+
 }
+.texto{
+    color: var(--texto);
+    size: 20px;
+}
+h6{ /* Nome do usuario*/
+    margin-top: 15%;
+    margin-left:15%;
+    color: var(--texto);
+    size: 20px;
+    text-align: left;
+
+}
+h7{/* nome do cargo*/
+    margin-top: 60%;
+    margin-left:-80%;
+    color: var(--texto);
+    size: 20px;
+    text-align: left;     
+}
+
 .lateral{
     width:200px;
     height: 100%;
     border-radius: 9px ;
-    background-color: gray;
+    background-color:var(--telas);
     position: absolute; /* Pode mudar ára fixed ou outra */
+    margin-top: 70px; /* mudar com que alguem saiba */
 
 }
 .logo{
@@ -25,8 +54,7 @@ header{
 img{
     width: 50px;
     height: auto;
-    border-radius: 10%;
-    text-align: center;
+    text-align: left;
     margin-top: -20px;
 }
 .Fotouser{
@@ -34,9 +62,18 @@ img{
     height: 130px;
     margin-left: 20%;
 }
+.blocofotouser{
+    width: auto;
+    height: 20%;
+    margin-left: auto;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    
+
+}
 .lateralnav{
     text-decoration: none;
-    color: rgb(51, 51, 51);
+    color: var(--texto);
     font-size: 15px;
     padding: 6px;
     display: block;
@@ -44,4 +81,100 @@ img{
 .lateralnav:hover{
     background-color: rgb(46, 46, 46);
     color: whitesmoke;
+}
+.foto{
+    width: 70px;
+    height: 70px;
+    border-radius: 95px ;
+    margin-top: 1%;
+    margin-left:left;
+    display: inline-flex;
+}
+.menu{
+    list-style:none;
+    border:1px solid #ffffff;
+    float:right;
+    margin-right: 10px;
+    border-radius: 10px;
+    }
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #ffffff;
+}
+.menu li a{color:var(--texto); text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background:rgb(46, 46, 46);
+    color:#ffffff;
+
+}
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:rgb(46, 46, 46);
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:1px solid #000000;
+    display:block;
+    width:138%;
+    margin-left: -39%;
+    }
+
+    #divBusca{
+        background-color:var(--pretofundo);
+        border:solid 1px;
+        border-radius:15px;
+        width:300px;
+        position:absolute;
+        float:left;
+        border-radius: 10%;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:var(--texto);
+        padding-left:5px;
+        font-style:italic;
+        font-size:18px;
+        border:none;
+        height:32px;
+        width:260px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+
+.navtop{
+    width:auto;
+    height: 120px;
+    border-radius: 9px ;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+.Boxnavtop{
+    width:20%;
+    height: 80%;
+    border-radius: 9px ;
+    background-color: rgb(25, 28, 36);
+    margin-left: 20px;
+    display: inline-block;
+}
+.fotoboxnavtop{
+    margin-top: auto;
+    width: 30%;
+    height: 100%;
+    border-radius: 9px ;
+}
+
+
+@media  (max-width: 991px)
+{
+
 }

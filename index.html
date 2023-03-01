@@ -5,43 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="index.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" media="all">
 </head>
 <body>
-    
+
 
 
         <!-- Barra Lateral -->
         <div class="lateral">
             <nav class="">
                 <a href="index.html" class="logo">
-                    <h3 class="logo2"><img src="img/logo sem fundo.png" ></i>COA</h3>
+                    <h3 class="logo2"><img src="img/logo sem fundo.png" ></p></h3>
                 </a>
-                <div class="d-flex align-items-center ms-4 mb-4">
-                    <div class="position-relative">
-                        <img class="Fotouser" src="img/GuiBalbinoFT.jpeg" >
-                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
-                    </div>
-                    <div class="img">
-                        <h6 class="img" style="text-align: center;">Guilherme Balbino</h6>
-                        <p style="text-align: center;"> Adimistrador</p>
-                    </div>
-                </div>
-                <!--
-                <div class="navbar-nav w-100">
-                 
-                <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <div class="nav-item dropdown">
+                <div class="blocofotouser">
+                    <div class="foto"> 
+                        <img class="foto" src="img/GuiBalbinoFT.jpeg" >      
+                        <h6 class="h6">Guilherme Balbino</h6>
+                        <h7 class="h7">Adiministrador </h7>
                         
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="button.html" class="dropdown-item">Botões</a>
-                            <a href="typography.html" class="dropdown-item">Tipografia</a>
-                            <a href="element.html" class="dropdown-item">Elementos</a>
-                        </div>
                     </div>
-                    -->   
+                    <br>
+                </div> 
                     <div class="nav-item dropdown">
-                        <a href="#" class="lateralnav" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Navegaão</a>
+                        <br>
+                        <a href="#" class="lateralnav" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Dashbord</a>
                         <div class="dropdown-menu bg-transparent border-0">
                             <a href="signin.html" class="lateralnav">Deslogar</a>
                             <a href="signup.html" class="lateralnav">Cadastrar Colaborador</a>
@@ -54,139 +41,44 @@
             </nav>
         </div>
         <!-- Barra Lateral -->
-
-
+        
         <div class="content">
             <!-- Barra de navegação -->
-            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
-                </a>
-                <a href="#" class="sidebar-toggler flex-shrink-0">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <form class="d-none d-md-flex ms-4">
-                    <input class="form-control bg-dark border-0" type="search" placeholder="Search">
-                </form>
-                <div class="navbar-nav align-items-center ms-auto">
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <i class="fa fa-envelope me-lg-2"></i>
-                            <span class="d-none d-lg-inline-flex">Mensagem</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="img/AkiraFT.jpeg" alt="" style="width: 40px; height: 40px;">
-                                    <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Gustavo te enviou uma mensagem</h6>
-                                        <small>Há 8 minutos</small>
-                                    </div>
-                                </div>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="img/GuiBalbinoFT.jpeg" alt="" style="width: 40px; height: 40px;">
-                                    <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Guilherme te enviou uma mensagem</h6>
-                                        <small>Há 5 minutos</small>
-                                    </div>
-                                </div>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="img/GuiBalbinoFT.jpeg" alt="" style="width: 40px; height: 40px;">
-                                    <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Guilherme te enviou uma mensagem</h6>
-                                        <small>Há 5 minutos</small>
-                                    </div>
-                                </div>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item text-center">Veja todas mensagens</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <i class="fa fa-bell me-lg-2"></i>
-                            <span class="d-none d-lg-inline-flex">Notificações</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">Profile updated</h6>
-                                <small>Há 5 minutos</small>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">New user added</h6>
-                                <small>Há 5 minutos</small>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">Password changed</h6>
-                                <small>Há 5 minutos</small>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item text-center">See all Notificaçõess</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="rounded-circle me-lg-2" src="img/GuiBalbinoFT.jpeg" alt="" style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">Guilherme Balbino</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">Meu perfil</a>
-                            <a href="#" class="dropdown-item">Opções</a>
-                            <a href="signin.html" class="dropdown-item">Deslogar</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <header>
+                <nav>
+                   <div class="divBusca"> <input type="text" id="txtBusca" placeholder="Buscar..."/></div>
+                    <ul class="menu">
+                          <li><a href="#">mensagem</a></li>
+                          <li><a href="#">Contato</a></li>
+                          <li><a href="#"> USER</a> <!-- precisa colocar um icone de user -->
+                            <ul>
+                                 <li><a href="#">OPÇOES</a></li>
+                                 <li><a href="#">MEU PERFIL</a></li>
+                                 <li><a href="#">DESLOGAR</a></li>
+                              </ul>
+                       </li>
+                       <li><a href="#">notificaçao </a></li>
+                  </ul>
+                  </nav>
+            </header>
             <!-- Barre de Navegação -->
 
 
             <!-- Sale & Revenue Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-line fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Guias próximo mês</p>
-                                <h6 class="mb-0">04</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-bar fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Guias em aberto</p>
-                                <h6 class="mb-0">03</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-area fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Guias em análise</p>
-                                <h6 class="mb-0">00</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Guias Retornadas</p>
-                                <h6 class="mb-0">00</h6>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Barra de informaçao TOP-->
+            <div class="navtop">
+                <div class="Boxnavtop"> 
+                    <img src="/img/Guias proximo mes.png" alt="guias" class="fotoboxnavtop">
+
+                </div>
+                <div class="Boxnavtop">
+                    <img src="/img/guias em aberto.png" alt="guias" class="fotoboxnavtop">
+                </div>
+                <div class="Boxnavtop">
+                    <img src="/img/guias em analise.png" alt="guias" class="fotoboxnavtop">  
+                </div>
+                <div class="Boxnavtop">
+                    <img src="/img/Guias.png" alt="guias" class="fotoboxnavtop">
                 </div>
             </div>
    
