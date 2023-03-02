@@ -14,7 +14,7 @@ body{
 }   
 header{
     background-color:var(--telas);
-    width: 100%;
+    width: 93.5%;
     height: 60px;
 
 }
@@ -192,7 +192,7 @@ img{
     border-radius: 9px ;
 }
 .notasfiscais{
-    width: auto;
+    width : 82.5%;
     height: 450px;
     margin-left: 230px;
     background-color: rgb(255, 255, 255);
