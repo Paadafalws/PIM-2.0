@@ -7,8 +7,11 @@
 }
 body{
     font-family:arial, sans-serif;
-    background-color:var(--pretofundo);          
-}
+
+    background-color:var(--pretofundo);     /* MUdou sim aqui tanto que bugou o site kkk*/        
+
+
+}   
 header{
     background-color:var(--telas);
     width: 100%;
