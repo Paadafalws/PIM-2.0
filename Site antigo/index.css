@@ -18,6 +18,11 @@ header{
     height: 60px;
 
 }
+nav{
+    background-color:red;
+    width: auto;
+    height: 60px;
+}
 .texto{
     color: var(--texto);
     size: 20px;
