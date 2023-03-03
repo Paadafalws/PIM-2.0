@@ -1,3 +1,6 @@
+
+
+
 :root
 {
     --pretofundo: #000000;
@@ -5,6 +8,43 @@
     --icones:#028a0f;
     --texto:#517293;
 }
+/* ICONES*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/profile.css');/* user*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/user-add.css');/* add usuer*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/user-remove.css');/* remover user*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/software-upload.css');/* Enviar guias*/
+
+
+table {
+
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #6C7293;
+    vertical-align: top;
+   
+}
+tr{
+    text-align: left;
+    color: var(--texto);
+    font-size: 1.7rem;
+    
+}
+td{
+    border-radius: 0.3rem;
+    border: 0.1rem solid rgb(105, 102, 102);
+    color: var(--texto);
+    font: 1.6rem "open sans", sans-serif;
+    padding :1.3rem;
+}
+.tdi{
+    border-radius: 0.3rem;
+    border: 0.1rem solid rgb(105, 102, 102);
+    color: whitesmoke;
+    font: 1.6rem "open sans", sans-serif;
+    padding :1.3rem;
+}
+
+/* ICONES*/
 html {
     font-size: 62.5%; /*  CONVERTE O REM 16PX PARA 10PX */       
 }
@@ -24,7 +64,7 @@ header{
 }
 .logo{
 
-    margin:0px 0.2rem -2.4rem 28rem;
+    margin:0rem 0.2rem -2.4rem 28rem;
     height:6rem ;
     width:6rem ;
 }
@@ -143,7 +183,7 @@ header{
     border-radius: 0.9rem ;
 
     position: absolute; /* Pode mudar ára fixed ou outra */
-    margin-top: 0.rem; /* mudar com que alguem saiba */
+    margin-top: 0rem; /* mudar com que alguem saiba */
 }
 .menulateral{
     text-decoration: none;
@@ -179,7 +219,7 @@ header{
     background-color: var(--telas);
     width:  29rem;
     height: 13rem;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 .notasfiscais{
@@ -187,7 +227,7 @@ header{
     margin-top: 2rem;
     width:  auto;
     height: 42rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
 }
 .tarefas{
 
@@ -201,7 +241,7 @@ header{
     background-color: var(--telas);
     width:  39rem;
     height: auto;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 .teste{
     display: block;
@@ -300,5 +340,15 @@ header{
     section.tarefas{
         display: flex;
         justify-content:space-between;
+    }
+
+    td.tdi,tr,td{
+        border-radius: 0rem;
+        border-radius: 2rem;
+        border: 0.1rem solid rgb(105, 102, 102);
+        color: var(--texto);
+        font: 1.6rem "open sans", sans-serif;
+        padding: 0.27rem;
+
     }
 }
