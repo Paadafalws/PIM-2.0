@@ -1,24 +1,43 @@
+
+
+
+:root
+{
+    --pretofundo: #000000;
+    --telas: #191c24;
+    --icones:#028a0f;
+    --texto:#517293;
+}
+
 body{
     font-family:arial, sans-serif;
-    background-color:black;  
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/17/17/09/woman-4702060_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 100vh; 
-    margin:150px;    
+    height: 70vh; 
+    margin: 150px;
+
 }
 main{    
     border-radius: 20px;       
-    background-color:#37363e;    
+    background-color:transparent; 
+    box-shadow: 0 0 56px #000000;   
     padding: 40px;      
-    width: 400px;     
+    width: 400px; 
+    margin-left: 120px;    
+
 }
 .header{
     display: flex;
     justify-content: space-between;          
 }
-.logo{            
+.logo{   
+    margin: 0 0 0 0;        
     color:rgb(30, 248, 5); 
+    font-style: initial;
     text-transform: uppercase;  
 }
 .formulario{               
@@ -33,8 +52,8 @@ section{
     position: relative;
 }
 .floatingInput__control {    
-    background-color:black;
-    color:#f7f6f8;    
+    background-color:transparent;
+    color:#ffffff;    
     border-radius:20px;
     margin-top:15px;
     height:50px;
@@ -50,44 +69,63 @@ section{
     font-size: 10px;
 }
 .floatingInput__label {
-    color: gray;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 20px;
     transition: all .2s;
+
 }
 .arquivo{    
     margin-top:10%;
-    color:gray;    
+    color:rgb(255, 255, 255);    
     display: flex;
     padding-right: 50px;
 }
 .teste{
+    color: #f7f6f8;
+    
    align-items: center;
    margin-top:20px;
    display: flex;
-   justify-content:space-between;
+
 }
 .checkbox{
+    padding: 5px;
     width:15px;    
 }
 textarea{
     resize:none;
     width: 100%;
-    border-bottom: 50px solid black;
+    border-bottom: transparent;
     padding-top: 20px;
 }
-button {    
+.btn {    
+    color: rgb(255, 255, 254);
     border-radius: 20px;
     height:50px;
     width:100%;
-    background-color: rgb(30, 248, 5);
+    background-color: transparent;
     text-align: center;
     text-transform: uppercase;
-    color:white;  
+    box-shadow: 0 0 8px #f7f6f8;   
     font-weight: bold;
     margin-top: 30px;  
 }
 
+button.btn a:hover{
+    color: blue;
+    background-color: rgb(240, 8, 8);
+}
 
 
+.foto1{
+    width: 650px;
+    margin:  0 200px 0 0 ;
+    display: inline-block;
+    align-items: center;
+}
+
+.pgprincipal{
+
+}
