@@ -3,15 +3,16 @@ html {
 }
 :root
 {
-    --pretofundo: #000000;
-    --telas: #191c24;
-    --icones:#028a0f;
-    --texto:#517293;
-    --tela:rgb(145, 145, 145); 
+    --preto: #000000;
+    --icones:#234B45;   
+    --texto:#126339;
+    --tela:#118B56;
+    --botao:#118C40;    
+    --branco:#ffffff;
 }
 .login{
     font-family:arial, sans-serif;
-    background-image: url(https://cdn.pixabay.com/photo/2019/12/17/17/09/woman-4702060_960_720.jpg);    
+    background-image:linear-gradient(125deg,#ffffff,#118B56 , #000000);
     background-size: cover;    
     background-repeat: no-repeat;
     display: flex;     
@@ -21,10 +22,9 @@ html {
     font-size: 14px; 
     height: 100vh;  
 }
-
 body{
     font-family:arial, sans-serif;     
-    background-color: var(--pretofundo);
+    background-color:var(--tela);
     display: flex;     
     justify-content: center;  
     align-items: center;
@@ -33,12 +33,12 @@ body{
     height: 100vh;      
 }
 /*logo*/
-.logo{    
-    width: 100vh;            
+.logo{   
+   margin-top:-1rem;
 }
 /*formulario*/
 main{
-    background-color: var(--tela);
+    background-color: transparent;
     border-radius: 20px;
     border: #000000;
     text-align: center;
@@ -52,25 +52,29 @@ main{
     color:white;
     display: flex;
     justify-content:space-between;
-    text-align: center;        
+    text-align: center;       
+    margin-bottom:2rem ;         
 }
 /*Campo de preenchimento*/
 .formulario{    
     height: 25rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 2rem;    
 }
 .floatingInput {
     position: relative;
 }
 .floatingInput__control {    
-    background-color:transparent;
+    background-color:white;
     color:black;    
     border-radius:20px;    
     height:4.3rem;
     width:98%;  
-    text-transform: uppercase;    
+    text-transform: uppercase; 
+    border: transparent;
+    margin   
 }
 .floatingInput__control::placeholder{
     opacity: 0;
@@ -81,32 +85,51 @@ main{
     font-size: 1.3rem;     
 }
 .floatingInput__label {
-    color: white;
+    color: black;
     position: absolute;
     top: 50%;
     left: 20px;
     transition: all .2s;
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    
 }
 /*Botão de login/salvar*/
 .btn{
-    text-transform: uppercase;    
+    text-transform: uppercase; 
+    font-size: 18px; 
+    font-weight:bold;
     width:100%;
     border-radius: 20px;
-    background-color: var(--icones);
-    height:4.3rem;  
-    
+    background-color: var(--botao);
+    height:4.3rem;
+    border: transparent;      
+}
+.btn:hover{
+    color:var(--branco);
+    background-color: var(--preto);
 }
 /*Checkbox*/
-.checkbox{   
+.checkbox{       
     display: flex;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 2rem;
 }
 .checkbox1{
-    color:white;
+    color:var(--branco);
+}
+.checkbox1:hover{
+    color:var(--preto);
+}
+a.esquecisenha{
+    color:var(--branco);
+    text-decoration:none;
+}
+a.esquecisenha:hover{
+    color:var(--pret)
 }
 
