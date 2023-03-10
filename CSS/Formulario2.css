@@ -6,10 +6,11 @@ html {
     --preto: #000000;
     --icones:#234B45;   
     --texto:#126339;
-    --tela:#118B56;
+    --formulario:#118B56;
     --botao:#118C40;    
     --branco:#ffffff;
 }
+/*body*/
 .login{
     font-family:arial, sans-serif;
     background-image:linear-gradient(125deg,#ffffff,#118B56 , #000000);
@@ -24,7 +25,7 @@ html {
 }
 body{
     font-family:arial, sans-serif;     
-    background-color:var(--tela);
+    background-image: radial-gradient(circle, #118B56 35%,#234B45, #000000);
     display: flex;     
     justify-content: center;  
     align-items: center;
@@ -47,8 +48,9 @@ main{
     width: 35rem;
     border: 1px solid black;
 }
+
 .header{    
-    text-align: left;    
+    text-align: right;    
     color:white;
     display: flex;
     justify-content:space-between;
@@ -56,12 +58,13 @@ main{
     margin-bottom:2rem ;         
 }
 /*Campo de preenchimento*/
-.formulario{    
+.form{    
     height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 2rem;    
+    padding-bottom: 2rem;
+           
 }
 .floatingInput {
     position: relative;
@@ -73,9 +76,9 @@ main{
     height:4.3rem;
     width:98%;  
     text-transform: uppercase; 
-    border: transparent;
-    margin   
+    border: transparent;      
 }
+
 .floatingInput__control::placeholder{
     opacity: 0;
 }
@@ -92,8 +95,7 @@ main{
     transition: all .2s;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 /*Botão de login/salvar*/
 .btn{
