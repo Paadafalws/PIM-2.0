@@ -5,35 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/Formulario2.css">
+    <link rel="stylesheet" href="Cad.cliente.css">
 </head>
-<body>
-    <main >
-        <header class="header">
-            <h1 class="logo">Coa</h1>
+<body class="cadcliente">
+    <main class="main">
+        <header class="header-cadcliente">            
             <h1 class="formulario">Cadastro Cliente</h1>
+            <img src="../img/COA linha/COA/favicon_1000x1000 recortada.png" width="70rem" height="70rem"> 
         </header>
-        <section>
-            <form>
-                <!--Empresa-->
-                <h2 class="formulario"><br>Empresa<hr></h2>
-                <!-- floatingInput -->
-                    <!-- floatingInput__control -->
-                    <!-- floatingInput__label -->
-                <div class="floatingInput">          
-                    <input type="text" id="razaosocial" class="floatingInput__control" placeholder="Razão social">
-                    <label for="razaosocial" class="floatingInput__label">Razão social</label>         
-                </div>
-                <div class="floatingInput">
-                    <input type="text" id="cnpj" class="floatingInput__control" placeholder="999.999.999/9999-99">
-                    <label for="cnpj" class="floatingInput__label">999.999.999/9999-99</label> 
-                </div>
-                <div class="floatingInput">
-                    <input type="text" id="regime" class="floatingInput__control" placeholder="MEI/LUCRO REAL/LUCRO PRESUMIDO/">
-                    <label for="regime" class="floatingInput__label">MEI/LUCRO REAL/LUCRO PRESUMIDO/</label> 
-                </div>
+        <form class="form-cadcliente">  
+            <section class="formulario">    
                 <!--Contato-->
-                <h2 class="formulario">Contato<hr></h2> 
+                <h2>Contato</h2> 
                 <div class="floatingInput">          
                     <input type="text" id="email" class="floatingInput__control" placeholder="email">
                     <label for="email" class="floatingInput__label">E-Mail de contato</label>         
@@ -54,8 +37,29 @@
                     <input id="text" type="Colaborador" class="floatingInput__control" placeholder="Colaborador">
                     <label for="Colaborador" class="floatingInput__label">Colaborador</label> 
                 </div>
+            </section>    
+            <section class="formulario">
+                <!--Empresa-->
+                <h2>Empresa</h2>
+                <!-- floatingInput -->
+                    <!-- floatingInput__control -->
+                    <!-- floatingInput__label -->
+                <div class="floatingInput">          
+                    <input type="text" id="razaosocial" class="floatingInput__control" placeholder="Razão social">
+                    <label for="razaosocial" class="floatingInput__label">Razão social</label>         
+                </div>
+                <div class="floatingInput">
+                    <input type="text" id="cnpj" class="floatingInput__control" placeholder="999.999.999/9999-99">
+                    <label for="cnpj" class="floatingInput__label">999.999.999/9999-99</label> 
+                </div>
+                <div class="floatingInput">
+                    <input type="text" id="regime" class="floatingInput__control" placeholder="MEI/LUCRO REAL/LUCRO PRESUMIDO/">
+                    <label for="regime" class="floatingInput__label">MEI/LUCRO REAL/LUCRO PRESUMIDO/</label> 
+                </div>
+            </section>            
+            <section class="formulario">   
                 <!--Login-->                
-                <h2 class="formulario">Login<hr></h2>  
+                <h2>Login</h2>  
                 <div class="floatingInput">          
                     <input type="text" id="nome" class="floatingInput__control" placeholder="nome">
                     <label for="nome" class="floatingInput__label">Nome Usuario</label>         
@@ -67,12 +71,15 @@
                 <div class="floatingInput">
                     <input id="password" type="password" class="floatingInput__control" placeholder="senha">
                     <label for="password" class="floatingInput__label">Senha</label> 
-                </div>
+                </div>                                                               
+            </section>
+            <section class="formulario-btn">
                 <div class="btn">                                     
                     <a href=""><button type="submit">Salvar</button></a>         
-                </div>                                                
-            </form>                                      
-        </section>         
+                </div>   
+            </section>
+                                                               
+        </form>         
     </main>     
 </body>
 </html>

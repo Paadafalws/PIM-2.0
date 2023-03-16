@@ -11,45 +11,29 @@ html {
     --branco:#ffffff;
 }
 /*body*/
-.login{
-    font-family:arial, sans-serif;
-    background-image:linear-gradient(125deg,#ffffff,#118B56 , #000000);
-    background-size: cover;    
-    background-repeat: no-repeat;
-    display: flex;     
-    justify-content: center;  
-    align-items: center;
-    flex-direction: column;
-    font-size: 14px; 
-    height: 100vh;  
-}
-body{
+.cadcliente{
     font-family:arial, sans-serif;     
     background-image: radial-gradient(circle, #118B56 35%,#234B45, #000000);
+    font-size: 14px; 
     display: flex;     
     justify-content: center;  
     align-items: center;
-    flex-direction: column;
-    font-size: 14px; 
-    height: 100vh;      
+    width: 100%; 
+    height: 100vh;     
 }
-/*logo*/
-.logo{   
-   margin-top:-1rem;
-}
-/*formulario*/
-main{
+/*Formulario*/
+.main{
     background-color: transparent;
-    border-radius: 20px;
-    border: #000000;
+    border-radius: 20px;   
     text-align: center;
     padding: 2rem 4rem 2rem 4rem;
-    box-shadow: 0 0 56px #000000;
-    width: 35rem;
+    box-shadow: 0 0 56px #000000;    
     border: 1px solid black;
+    width: 80%;
+    height: 80vh;
 }
-
-.header{    
+/*Sumario*/
+.header-cadcliente{    
     text-align: right;    
     color:white;
     display: flex;
@@ -57,15 +41,27 @@ main{
     text-align: center;       
     margin-bottom:2rem ;         
 }
-/*Campo de preenchimento*/
-.form{    
-    height: 25rem;
+.form-cadcliente{
+    /*border:1px solid red;*/
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 2rem;
-           
+    height: 80%;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+
 }
+/*Campo de preenchimento*/
+.formulario{
+   width:30%;      
+}
+.formulario-btn{
+   width: 100%;
+    
+}
+
+section{
+    /*border: 1px solid blue;     */ 
+}
+
 .floatingInput {
     position: relative;
 }
@@ -78,7 +74,6 @@ main{
     text-transform: uppercase; 
     border: transparent;      
 }
-
 .floatingInput__control::placeholder{
     opacity: 0;
 }
@@ -97,41 +92,19 @@ main{
     text-transform: uppercase;
     font-size: 15px;    
 }
+
 /*Botão de login/salvar*/
 .btn{
     text-transform: uppercase; 
     font-size: 18px; 
     font-weight:bold;
-    width:100%;
+    width:30%;
     border-radius: 20px;
     background-color: var(--botao);
     height:4.3rem;
-    border: transparent;      
+    border:transparent;         
 }
 .btn:hover{
     color:var(--branco);
     background-color: var(--preto);
 }
-/*Checkbox*/
-.checkbox{       
-    display: flex;
-    text-align: center;
-    margin-top: 3rem;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 2rem;
-}
-.checkbox1{
-    color:var(--branco);
-}
-.checkbox1:hover{
-    color:var(--preto);
-}
-a.esquecisenha{
-    color:var(--branco);
-    text-decoration:none;
-}
-a.esquecisenha:hover{
-    color:var(--pret)
-}
-
