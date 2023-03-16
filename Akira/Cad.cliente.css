@@ -32,6 +32,12 @@ html {
     width: 80%;
     height: 80vh;
 }
+.form-cadcliente{    
+    display: flex;
+    height: 80%;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+}
 /*Sumario*/
 .header-cadcliente{    
     text-align: right;    
@@ -41,27 +47,14 @@ html {
     text-align: center;       
     margin-bottom:2rem ;         
 }
-.form-cadcliente{
-    /*border:1px solid red;*/
-    display: flex;
-    height: 80%;
-    flex-wrap: wrap; 
-    justify-content:space-between;
 
-}
 /*Campo de preenchimento*/
-.formulario{
+.formulario{   
+   display: flex;
+   justify-content:space-between;
+   flex-direction: column;
    width:30%;      
 }
-.formulario-btn{
-   width: 100%;
-    
-}
-
-section{
-    /*border: 1px solid blue;     */ 
-}
-
 .floatingInput {
     position: relative;
 }
@@ -92,17 +85,19 @@ section{
     text-transform: uppercase;
     font-size: 15px;    
 }
-
 /*Botão de login/salvar*/
-.btn{
-    text-transform: uppercase; 
-    font-size: 18px; 
-    font-weight:bold;
+.formulario-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.btn{ 
     width:30%;
     border-radius: 20px;
     background-color: var(--botao);
     height:4.3rem;
-    border:transparent;         
+              
 }
 .btn:hover{
     color:var(--branco);
